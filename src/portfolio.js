@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Timotius Albert",
+  title: "Hi all, I'm Albert",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Ionic / Flask / Django and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/darkevo24",
+  linkedin: "https://www.linkedin.com/in/timotius-albert-518b3a1aa/",
+  gmail: "timotiusalbert46@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -89,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -115,7 +111,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "flask & django",
+      fontAwesomeClassname: "fab fa-flask"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -154,15 +154,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +174,85 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "FullStack Developer",
+      company: "Singapore Freelancer",
+      companylogo: require("./assets/images/self-employee.jpeg"),
+      date: "March 2020 – April 2021",
+      desc: "React, Django, Flask, API, AWS, Redux, Python, SqLite3, JavaScript, TypeScript",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Create a Fullstack Web Application for Singapore Client",
+        "Participating in the design and creation of scalable software",
+        "Writing clean, functional code on the front- and back-end",
+        "Testing and fixing bugs or other coding issues"
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Richedu",
+      companylogo: require("./assets/images/richedu.png"),
+      date: "May 2021 – August 2021",
+      descBullets: [
+        "Developing 3D scenes and animation with Three.js and WebGL",
+        "Developing front end elements working on both web & mobile",
+        "Designing highly scalable and testable code and fixing bugs",
+        "Documenting code, requirements, and test cases",
+        "Working with customers to troubleshoot issues"
+      ],
+      desc: "React JS, JavaScript, Heroku"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front End Developer",
+      company: "Luxolis",
+      companylogo: require("./assets/images/luxolis.jpeg"),
+      date: "March 2022 – May 2022",
+      descBullets: [
+        "Build frontend modules for the ERP system",
+        "Understand, and communicate requirements with the client",
+        "Build the frontend systems at functional levels",
+        "Communicate with the backend team to optimize the user interface and experience",
+        "Communications with the business development team regarding the needs and requirements for products and services"
+      ],
+      desc: "React JS, Next JS, JavaScript, TypeScript, Nginx, Redux"
+    },
+    {
+      role: "Frontend Developer",
+      company: "TokenMinds",
+      companylogo: require("./assets/images/tokenminds.jpeg"),
+      date: "June 2022 – August 2022",
+      desc: "React JS, Next JS, JavaScript, TypeScript, Vercel, Redux, Blockchain",
+      descBullets: [
+        "Front end development for blockchain applications and related web sites and web apps.",
+        "Maintaining client and server-side applications, through AWS",
+        "Implementing front end development processes and complying with best practices in data protection",
+        "Keeping up with current front end technologies and hosting methods"
+      ]
+    },
+    {
+      role: "FullStack Developer",
+      company: "Kounteq",
+      companylogo: require("./assets/images/kounteq.png"),
+      date: "August 2022 – November 2022",
+      descBullets: [
+        "Researched, designed, and developed secure and high-performance systems and services based on business requirements",
+        "Managed the deployment of systems and services to development, test, and production environments",
+        "Developed test cases based on business requirements",
+        "Tested and deployed upgrades, updates, and patches",
+      ],
+      desc: "React, Django, Flask, API, AWS, Vue, Python, SqLite3"
+    },
+    {
+      role: "FullStack Developer",
+      company: "Buyeroad",
+      companylogo: require("./assets/images/buyeroad-icon.jpeg"),
+      date: "August 2022 – April 2023",
+      descBullets: [
+        "Created an E-Commerce website using the Flask framework.",
+        "Developed the front-end website architecture.",
+        "Designed user interactions on web pages.",
+        "Designed user interactions on web pages.",
+        "Created servers and databases for functionality."
+      ],
+      desc: "Flask, Python, SqLite3, API, Hosting"
     }
   ]
 };
@@ -216,25 +272,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/buyeroad-icon.jpeg"),
+      projectName: "Buyeroad",
+      projectDesc: "E-commerce projects in Europe Countries",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.buyeroad.co.uk/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/youanswer-icon.png"),
+      projectName: "YouAnswer",
+      projectDesc: "Search Engine Project",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.youanswer.eu/"
         }
       ]
     }
@@ -252,7 +308,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Python Hacker",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -292,7 +348,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -362,9 +418,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open for full time / part time / freelance",
+  number: "+6285775236846",
+  email_address: "timotiusalbert46@gmail.com"
 };
 
 // Twitter Section
